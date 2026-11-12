@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title description">
+    <title id="title">Magentry login page</title>
+    <desc id="description">Professional Magentry cover with the login page shown inside a dark blue composition.</desc>
+    <defs>
+        <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#081a35"/>
+            <stop offset="1" stop-color="#164b8e"/>
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#020b1a" flood-opacity=".35"/>
+        </filter>
+        <clipPath id="login-screen">
+            <rect x="650" y="106" width="460" height="488" rx="18"/>
+        </clipPath>
+    </defs>
+    <rect width="1200" height="700" fill="url(#background)"/>
+    <circle cx="1050" cy="70" r="220" fill="#6c9cff" opacity=".16"/>
+    <circle cx="70" cy="650" r="250" fill="#2874d8" opacity=".14"/>
+    <path d="M0 560C240 430 360 650 620 510s380-70 580 30v160H0Z" fill="#0b2d5a" opacity=".65"/>
+
+    <g transform="translate(82 82)">
+        <rect width="64" height="64" rx="18" fill="#ffffff"/>
+        <path d="M32 13a19 19 0 1 0 19 19A19 19 0 0 0 32 13Zm0 7a12 12 0 1 1-12 12 12 12 0 0 1 12-12Z" fill="#1765d1"/>
+        <path d="M32 24v10l7 5" fill="none" stroke="#1765d1" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="82" y="220" fill="#8bb8ff" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">INTERNAL ATTENDANCE SYSTEM</text>
+    <text x="78" y="310" fill="#ffffff" font-family="Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="-3">Magentry</text>
+    <text x="84" y="360" fill="#c7ddff" font-family="Arial, sans-serif" font-size="23">Presensi digital untuk peserta magang</text>
+    <rect x="84" y="410" width="172" height="42" rx="21" fill="#5d96ff"/>
+    <text x="114" y="437" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="700">LOGIN SYSTEM</text>
+
+    <g filter="url(#shadow)">
+        <rect x="630" y="86" width="500" height="528" rx="28" fill="#ffffff" opacity=".97"/>
+        <image href="/images/magentry/login.png" x="650" y="106" width="460" height="488" preserveAspectRatio="xMidYMid meet" clip-path="url(#login-screen)"/>
+    </g>
+</svg>
